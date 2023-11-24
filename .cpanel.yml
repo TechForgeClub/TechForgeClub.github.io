@@ -1,10 +1,9 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/your-username/public_html/
-    - /bin/cp -R .vscode $DEPLOYPATH
+    - export DEPLOYPATH=/home/techforgejnnceac/public_html/
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp LICENSE $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
