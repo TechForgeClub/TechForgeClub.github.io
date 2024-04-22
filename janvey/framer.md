@@ -1,4 +1,4 @@
-#script for framer website 
+# script for framer website 
 
  <script>
         // Function to change page title
